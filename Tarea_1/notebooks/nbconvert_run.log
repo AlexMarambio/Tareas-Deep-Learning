@@ -1,0 +1,9 @@
+[NbConvertApp] Converting notebook Tarea_1_IDS_DNN.ipynb to notebook
+C:\Users\21474919K\AppData\Roaming\Python\Python313\site-packages\zmq\_future.py:724: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+Traceback (most recent call last):
+  File "C:\Users\21474919K\AppData\Local\Programs\Python\Python313\Lib\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\214749~1\\AppData\\Local\\Temp\\joblib_memmapping_folder_12088_2cf6fcd85e8a45a28f0ac15b7836e47f_8e60f2bc457b4d7da1d60ba5310993dc'
+[NbConvertApp] Writing 889205 bytes to Tarea_1_IDS_DNN.ipynb
