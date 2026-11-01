@@ -1,0 +1,4 @@
+componente,parámetros_M,etapa A,etapa B
+backbone (capas 0-10),5.441984,congelado,fine-tuning
+neck PAN (capas 11-22),3.1664,entrenado,fine-tuning
+cabeza Detect (capa 23),0.827148,entrenado,fine-tuning
