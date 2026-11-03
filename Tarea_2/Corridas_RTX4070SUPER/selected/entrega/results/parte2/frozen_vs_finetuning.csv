@@ -1,0 +1,5 @@
+modelo,etapa,test mAP50-95,test mAP50,precisión,recall,F1,épocas acumuladas,horas acumuladas
+YOLO11s COCO,A: backbone congelado,0.1894,0.2925,0.7256,0.4837,0.5805,10,0.0657
+YOLO11s COCO,B: fine-tuning,0.2971,0.4393,0.8005,0.5805,0.673,40,0.1963
+Faster R-CNN COCO,A: backbone congelado,0.173,0.2864,0.67,0.4492,0.5378,4,0.133
+Faster R-CNN COCO,B: fine-tuning,0.2258,0.369,0.6875,0.5479,0.6098,14,0.3731

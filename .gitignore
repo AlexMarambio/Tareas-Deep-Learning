@@ -8,3 +8,8 @@ Tarea_2/.claude
 Tarea_2/notebooks/local_run/
 Tarea_2/.venv/
 Tarea_2/notebooks/*.pt
+__pycache__/
+/FjordFish.zip
+/weights/
+Tarea_2/Corridas_RTX4070SUPER/**/*.pt
+Tarea_2/Corridas_RTX4070SUPER/**/*.zip

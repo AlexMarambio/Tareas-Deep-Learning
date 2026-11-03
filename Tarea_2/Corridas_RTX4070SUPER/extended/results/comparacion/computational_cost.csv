@@ -1,0 +1,3 @@
+modelo,épocas,mejor_época,horas_GPU,s_por_época,mem_GPU_GB,latencia_ms,params_M,GFLOPs_640
+CNN propia,110,80,0.528,17.273,1.825,3.851,7.729,46.799
+YOLO11s desde cero,200,181,0.777,13.986,4.098,7.968,9.436,21.461

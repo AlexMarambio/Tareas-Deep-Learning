@@ -1,0 +1,7 @@
+{
+  "params_m": 9.435532,
+  "gflops_640": 21.460736,
+  "latency_ms": 8.519392999987758,
+  "ultralytics_test_map": 0.21485635455638033,
+  "ultralytics_test_map50": 0.341106110895133
+}

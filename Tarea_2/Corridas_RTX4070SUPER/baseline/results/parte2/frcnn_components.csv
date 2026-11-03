@@ -1,0 +1,7 @@
+componente,parámetros_M,etapa A,etapa B
+backbone: conv1 + layer1,0.2224,congelado,congelado
+backbone: layer2-layer4,23.232512,congelado,entrenado
+FPN,3.346432,entrenado,entrenado
+RPN,1.184015,entrenado,entrenado
+cabeza de cajas (RoI),15.207424,entrenado,entrenado
+clasificador nuevo (21 salidas),0.107625,entrenado,entrenado

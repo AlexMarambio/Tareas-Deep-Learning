@@ -1,0 +1,55 @@
+{
+  "epochs_run": 110,
+  "best_epoch": 80,
+  "best_val_map": 0.13180479407310486,
+  "train_time_s": 1900.0778939723969,
+  "s_per_epoch": 17.27343539974906,
+  "peak_gpu_mem_gb": 1.825225728,
+  "env": {
+    "python": "3.13.3",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "ultralytics": "8.4.177",
+    "torchmetrics": "1.9.0",
+    "device": "NVIDIA GeForce RTX 4070 SUPER",
+    "amp": true
+  },
+  "config": {
+    "input_hw": [
+      384,
+      640
+    ],
+    "widths": [
+      64,
+      128,
+      256,
+      384
+    ],
+    "depths": [
+      1,
+      2,
+      2,
+      1
+    ],
+    "neck_channels": 128,
+    "head_channels": 64,
+    "max_objects": 128,
+    "batch_size": 16,
+    "effective_batch": 16,
+    "epochs": 120,
+    "lr": 0.001,
+    "weight_decay": 0.05,
+    "warmup_epochs": 3,
+    "min_lr_ratio": 0.01,
+    "ema_decay": 0.9998,
+    "grad_clip": 10.0,
+    "eval_every": 5,
+    "patience": 30,
+    "size_loss_weight": 0.1,
+    "offset_loss_weight": 1.0,
+    "crop_min_scale": 0.6,
+    "crop_prob": 0.5,
+    "lr_test_iters": 200,
+    "overfit_iters": 150
+  }
+}

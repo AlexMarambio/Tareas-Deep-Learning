@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "updated": 1793686524.316008,
+  "winners": {
+    "cnn": "extended",
+    "yolo_scratch": "extended",
+    "yolo_coco": "baseline",
+    "frcnn": "baseline"
+  }
+}

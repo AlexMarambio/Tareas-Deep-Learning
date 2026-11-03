@@ -1,0 +1,20 @@
+{
+  "winners": {
+    "cnn": "extended",
+    "yolo_scratch": "extended",
+    "yolo_coco": "baseline",
+    "frcnn": "baseline"
+  },
+  "validation": {
+    "cnn": {
+      "extend": true,
+      "baseline_val": 0.11468499898910522,
+      "extended_val": 0.13180479407310486
+    },
+    "yolo_scratch": {
+      "extend": true,
+      "baseline_val": 0.18511,
+      "extended_val": 0.20947
+    }
+  }
+}

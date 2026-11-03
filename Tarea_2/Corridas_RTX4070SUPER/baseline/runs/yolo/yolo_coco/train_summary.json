@@ -1,0 +1,25 @@
+{
+  "epochs_run": 30,
+  "best_epoch": 30,
+  "best_val_map": 0.28573,
+  "train_time_s": 469.915,
+  "s_per_epoch": 15.663833333333335,
+  "peak_gpu_mem_gb": 4.097835008,
+  "env": {
+    "python": "3.13.3",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "ultralytics": "8.4.177",
+    "torchmetrics": "1.9.0",
+    "device": "NVIDIA GeForce RTX 4070 SUPER",
+    "amp": true
+  },
+  "config": {
+    "epochs": 30,
+    "patience": 15,
+    "lr0": 0.002,
+    "warmup_epochs": 1,
+    "warmup_bias_lr": 0.002,
+    "close_mosaic": 6
+  }
+}

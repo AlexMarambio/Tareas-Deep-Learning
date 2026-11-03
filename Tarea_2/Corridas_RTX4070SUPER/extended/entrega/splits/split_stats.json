@@ -1,0 +1,129 @@
+{
+  "images": {
+    "train": 2101,
+    "val": 451,
+    "test": 450
+  },
+  "boxes": {
+    "train": 4307,
+    "val": 997,
+    "test": 1044
+  },
+  "boxes_per_class": {
+    "ballan": {
+      "train": 71,
+      "val": 7,
+      "test": 15
+    },
+    "cuckoo_female": {
+      "train": 30,
+      "val": 10,
+      "test": 7
+    },
+    "cuckoo_male": {
+      "train": 22,
+      "val": 5,
+      "test": 3
+    },
+    "corkwing_female": {
+      "train": 287,
+      "val": 79,
+      "test": 90
+    },
+    "corkwing_male": {
+      "train": 805,
+      "val": 182,
+      "test": 228
+    },
+    "goldsinny": {
+      "train": 960,
+      "val": 243,
+      "test": 230
+    },
+    "rock_cook": {
+      "train": 114,
+      "val": 15,
+      "test": 23
+    },
+    "labrids_unknown": {
+      "train": 249,
+      "val": 39,
+      "test": 45
+    },
+    "cod": {
+      "train": 713,
+      "val": 65,
+      "test": 33
+    },
+    "cod_yoy": {
+      "train": 100,
+      "val": 42,
+      "test": 39
+    },
+    "gadids_unknown": {
+      "train": 131,
+      "val": 69,
+      "test": 29
+    },
+    "pollack": {
+      "train": 107,
+      "val": 17,
+      "test": 25
+    },
+    "saithe": {
+      "train": 22,
+      "val": 9,
+      "test": 8
+    },
+    "whiting": {
+      "train": 57,
+      "val": 27,
+      "test": 17
+    },
+    "spiny_dogfish": {
+      "train": 389,
+      "val": 143,
+      "test": 152
+    },
+    "brown_crab": {
+      "train": 114,
+      "val": 22,
+      "test": 54
+    },
+    "green_crab": {
+      "train": 24,
+      "val": 4,
+      "test": 10
+    },
+    "decapods_unknown": {
+      "train": 14,
+      "val": 1,
+      "test": 6
+    },
+    "ling": {
+      "train": 22,
+      "val": 5,
+      "test": 2
+    },
+    "gobies": {
+      "train": 76,
+      "val": 13,
+      "test": 28
+    }
+  },
+  "n_groups": 1083,
+  "largest_group": 438,
+  "near_dup_hamming": 10,
+  "leakage_official_val_vs_train": 0.7117903930131004,
+  "leakage_own_valtest_vs_train": 0.3074361820199778,
+  "same_view_hamming": 6,
+  "same_view_official_val_vs_train": 0.5141921397379913,
+  "same_view_own_valtest_vs_train": 0.0,
+  "search": {
+    "score": 0.17939470685798461,
+    "max_class_error": 0.17916152897657223,
+    "max_image_error": 0.0002331778814123886,
+    "classes_missing_in_val_test": 0,
+    "images_forced_to_train": 438
+  }
+}

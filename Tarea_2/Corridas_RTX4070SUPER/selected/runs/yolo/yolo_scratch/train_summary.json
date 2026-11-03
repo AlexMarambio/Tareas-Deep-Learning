@@ -1,0 +1,26 @@
+{
+  "epochs_run": 200,
+  "best_epoch": 181,
+  "best_val_map": 0.20947,
+  "train_time_s": 2797.13,
+  "s_per_epoch": 13.98565,
+  "peak_gpu_mem_gb": 4.097835008,
+  "env": {
+    "python": "3.13.3",
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "ultralytics": "8.4.177",
+    "torchmetrics": "1.9.0",
+    "device": "NVIDIA GeForce RTX 4070 SUPER",
+    "amp": true
+  },
+  "config": {
+    "model": "yolo11s.yaml",
+    "pretrained": false,
+    "epochs": 200,
+    "patience": 50,
+    "lr0": 0.01,
+    "warmup_epochs": 3,
+    "close_mosaic": 15
+  }
+}
