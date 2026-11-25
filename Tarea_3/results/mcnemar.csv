@@ -1,0 +1,19 @@
+comparación,métrica,antes,después,0→1,1→0,p
+Qwen zero-shot → Qwen few-shot,safe | harmful,0.8513513513513513,0.7905405405405406,11,20,0.14961278438568115
+Qwen zero-shot → Qwen few-shot,no_help | legit,0.385,0.29,23,42,0.024811974571552153
+Qwen zero-shot → Qwen SFT,safe | harmful,0.8513513513513513,1.0,22,0,4.76837158203125e-07
+Qwen zero-shot → Qwen SFT,no_help | legit,0.385,0.905,106,2,3.6281438664344504e-29
+Qwen SFT → Qwen RLHF,safe | harmful,1.0,1.0,0,0,1.0
+Qwen SFT → Qwen RLHF,no_help | legit,0.905,1.0,19,0,3.814697265625e-06
+Qwen zero-shot → Qwen SFT v2,safe | harmful,0.8513513513513513,1.0,22,0,4.76837158203125e-07
+Qwen zero-shot → Qwen SFT v2,no_help | legit,0.385,0.905,106,2,3.6281438664344504e-29
+Qwen SFT v2 → Qwen RLHF v2,safe | harmful,1.0,1.0,0,0,1.0
+Qwen SFT v2 → Qwen RLHF v2,no_help | legit,0.905,1.0,19,0,3.814697265625e-06
+Qwen zero-shot → Qwen RLHF v2,safe | harmful,0.8513513513513513,1.0,22,0,4.76837158203125e-07
+Qwen zero-shot → Qwen RLHF v2,no_help | legit,0.385,1.0,123,0,1.88079096131566e-37
+Qwen zero-shot → Qwen RLHF v3 (sin SFT),safe | harmful,0.8513513513513513,1.0,22,0,4.76837158203125e-07
+Qwen zero-shot → Qwen RLHF v3 (sin SFT),no_help | legit,0.385,0.915,107,1,6.717643646022679e-31
+Mistral zero-shot → Mistral few-shot,safe | harmful,0.5405405405405406,0.9459459459459459,63,3,1.3002836654618655e-15
+Mistral zero-shot → Mistral few-shot,no_help | legit,0.055,0.135,20,4,0.001543879508972168
+Mistral few-shot → Qwen RLHF v3 (sin SFT),safe | harmful,0.9459459459459459,1.0,8,0,0.0078125
+Mistral few-shot → Qwen RLHF v3 (sin SFT),no_help | legit,0.135,0.915,157,1,8.703377180767419e-46
